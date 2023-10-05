@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <table border="black">
+      <caption>
+        First Table
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Arun</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Balaji</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Karthi</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Srini</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="black">
+        <caption>Food Menu</caption>
+        <thead>
+            <tr>
+            <th rowspan="2">Item</th>
+            <th colspan="2">Price</th>  
+        </tr>
+        <tr>
+            <td>INR</td>
+            <td>USD</td>
+        </tr>   
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.30</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>15</td>
+                <td>0.25</td>
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>20</td>
+                <td>0.50</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table border="black">
+        <caption>Practice</caption>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red Eyes</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>Weight</td>
+        </tr>
+            <tr>
+                <td>Male</td>
+                <td>6.0</td>
+                <td>75</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>5.5</td>
+                <td>68</td>
+                <td>42%</td>
+            </tr>
+    </table>
+<form action="/index.html">
+<h1>Input</h1>
+
+<label>
+    Username: 
+    <input type="text" placeholder="Enter your name">
+</label>
+
+<br>
+<input type="password" placeholder="Enter your password">
+<br>
+<input type="number" placeholder="Enter the Number">
+<br>
+<input type="date" placeholder="Select the Date">
+<br>
+<input type="color" placeholder="Pick the color">
+<br>
+<label for="password">Enter your password</label>
+<input type="password" id="password" placeholder="Enter the password">
+<button>Submit</button>
+<button type="submit">B1</button>
+<button type="button">B2</button>
+<button type="reset">B3</button>
+<input type="submit">
+<input type="submit" value="click me">
+</form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Enter to search" name="q">
+        <button>Click Here</button>
+</form>
+  </body>
+</html>

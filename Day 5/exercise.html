@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+    <label for="age">Is your age more than 18</label>
+    <input type="checkbox" name="age" id="age">
+</form>
+<hr>
+<form action="/server">
+    <label for="apple">Apple</label>
+    <input type="radio" name="language" id="language">
+    <label for="orange">Orange</label>
+    <input type="radio" name="language" id="language">
+    <label for="mango">Mango</label>
+    <input type="radio" name="language" id="language">
+    <div>
+    <select name="profession" id="profession">
+        <option value="Student">Student</option>
+        <option value="Teacher">Teacher</option>
+    </select>
+    <button type="submit">submit</button>
+</div>
+
+<div>
+    <input type="range" name="age" id="age" min="0" max="100">
+    <label for="age">Pick your age</label>
+    <button type="submit">Done</button>
+</div>
+
+<div>
+    <textarea name="feedback" id="response" cols="10" rows="10"></textarea>
+</div>
+</form>
+<br>
+
+</body>
+</html>
