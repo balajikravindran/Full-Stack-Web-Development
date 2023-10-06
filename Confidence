@@ -1,0 +1,48 @@
+Hi Folks,
+
+Today, I got little tired, it's friday.
+So, I was watching movies, YouTube.
+
+But I had some doubts on Table in HTML. So, I searhced a random table image on Google and started coding on it. First time it was almost there
+around 70%. After playing with my code, I got the expected output. 
+
+I am very happy today. 😀😀😀
+
+It feels great and completed the basics in HTML and let's see the CSS tomorrow or Monday. Since it's a weekend. I am constantly studying. 
+So, I need a pause button.
+
+You can check the table here: https://www.w3resource.com/w3r_images/table.png
+And the code here:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Homework</caption>
+        <tr>
+            <td>quick</td>
+            <td colspan="2">brownfox</td>
+            <td>jumps</td>
+        </tr>
+        <tr>
+            <td rowspan="3">over the</td>
+            <td>lazy</td>
+            <td>dog</td>
+            <td>and</td>
+        </tr>
+        <tr>
+            <td>then</td>
+            <td>it</td>
+            <td>fall</td>
+        </tr>
+        <tr>
+            <td colspan="3">it is fine</td>
+        </tr>
+    </table>
+</body>
+</html>
